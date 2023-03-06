@@ -80,8 +80,9 @@ body {
 
 .blog-page1 {
     width: 100%;
-    /*padding: 1rem 1rem 1rem 1rem;*/
     color: white;
+    background-size: cover;
+    position: relative;
 }
 
 .blog-title {
