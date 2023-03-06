@@ -139,16 +139,16 @@ body {
 }
 
 
-.footer {
+.footer-page {
     background-color: black;
 
 }
 
-.footer-content {
+.footer-page-content {
     padding: 1rem;
 }
 
-.footer-top {
+.footer-page-top {
     padding-top: 1rem;
     display: flex;
     gap: .5rem;
@@ -159,21 +159,21 @@ body {
     width: 2.7rem;
 }
 
-.footer-title {
+.footer-title-page {
     font-family: 'Oswald', sans-serif;
     letter-spacing: .4px;
     font-size: 1.2rem;
     color: white;
 }
 
-.footer-label {
+.footer-page-label {
     font-size: 1.2rem;
     font-family: 'Oswald', sans-serif;
     color: #ff6300;
 
 }
 
-.footer-text {
+.footer-page-text {
     padding-top: 1rem;
     padding-bottom: 1rem;
     display: flex;
@@ -184,7 +184,7 @@ body {
 
 }
 
-.footer-link {
+.footer-page-link {
     color: white;
     text-decoration: none;
     color: #b6b6b6;
