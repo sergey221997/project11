@@ -98,17 +98,16 @@ body {
 .blog-title {
     padding-bottom: 2rem;
     padding-top: 2rem;
-
+    text-align: left;
 }
 
 .blog-text {
     font-size: 1.9rem;
     font-family: 'Oswald', sans-serif;
-    color: #ff6300
+    color: #ff6300;
 }
 
 .card {
-    /*height: 500px;*/
     padding: 1rem;
     background-color: white;
     border-radius: .4rem;
