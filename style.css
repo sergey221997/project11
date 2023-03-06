@@ -22,10 +22,27 @@ body {
     background-color: #20292b;
 }
 
-.container {
-    width: 90vw;
+.project {
+    width: 1300px;
     margin: auto;
 }
+
+.container {
+    /*width: 90vw;*/
+    width: 90%;
+    margin: auto;
+}
+
+/*@media (max-width:700px) {
+    .container {
+        width: 90%;
+    }
+
+    .header {
+        width: 90%;
+    }
+}*/
+
 
 .header {
     border-bottom: 1px solid var(--color-black);
@@ -63,7 +80,6 @@ body {
 
 .hero {
     position: relative;
-
 }
 
 .hero-img {
