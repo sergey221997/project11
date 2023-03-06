@@ -15,34 +15,13 @@ img {
 }
 
 body {
-
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 300rem;
     background-color: #20292b;
 }
 
-.project {
-    width: 1300px;
-    margin: auto;
-}
-
 .container {
-    /*width: 90vw;*/
     width: 90%;
     margin: auto;
 }
-
-/*@media (max-width:700px) {
-    .container {
-        width: 90%;
-    }
-
-    .header {
-        width: 90%;
-    }
-}*/
-
 
 .header {
     border-bottom: 1px solid var(--color-black);
@@ -107,6 +86,7 @@ body {
 
 
 .blog {
+    width: 100%;
     padding-top: 1rem;
     text-align: center;
     color: white;
@@ -127,6 +107,7 @@ body {
 }
 
 .card {
+    /*height: 500px;*/
     padding: 1rem;
     background-color: white;
     border-radius: .4rem;
@@ -141,6 +122,7 @@ body {
 }
 
 .card-image {
+
     background-image: url('./img/card1.jpg');
     background-size: cover;
     border-radius: .4rem;
