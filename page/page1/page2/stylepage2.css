@@ -9,25 +9,10 @@
     margin: auto;
 }
 
-.page1-subtext li {
-    list-style: none;
-}
-
-img {
-    width: 100%;
-    object-fit: cover;
-}
-
-:root {
-    --color-black: #0e0e0f;
-
-}
-
 body {
     background-color: #20292b;
     font-family: Arial, Helvetica, sans-serifs;
 }
-
 
 
 .header {
@@ -35,7 +20,7 @@ body {
     height: 5rem;
     text-align: center;
     display: flex;
-    background: var(--color-black);
+    background: black;
     color: white;
     font-weight: bold;
 }
@@ -47,7 +32,7 @@ body {
 
 }
 
-.logo-page {
+.logo {
     width: 2.7rem;
 }
 
@@ -61,130 +46,129 @@ body {
     font-family: 'Oswald', sans-serif;
     letter-spacing: .4px;
     font-size: 1.2rem;
+
 }
 
-.blog {
+.blog-page2 {
+    background-image: url(./imgpage2/imagepage2.jpg);
     width: 100%;
     height: 300px;
-    background-image: url(./imgpage1.jpg);
     background-size: cover;
     position: relative;
 }
 
-.blog-text {
+.blog-page2-text {
     position: absolute;
     bottom: 0;
     padding: 1.5rem;
     background-color: rgba(0, 0, 0, 0.529);
 }
 
-.blog-page1 {
-    width: 100%;
-    color: white;
-    background-size: cover;
-    position: relative;
-}
-
-.blog-title {
+.blog-page2-title {
     font-size: 1.4rem;
     color: white;
 }
 
-.blog-subtitle {
+.blog-page2-subtitle {
     font-size: .8rem;
     color: #a8a8a8;
 }
 
-.page1-title {
-    padding-top: 1rem;
-    font-size: 1.2rem;
-    color: #ff6300;
-}
+/*info*/
 
-.page1-article {
+.info-page2-title,
+.info-page2-title2,
+.info-page2-title3,
+.info-page2-title4 {
     padding-top: 1rem;
     padding-bottom: 1rem;
-}
-
-.page1-subtitle {
-    padding-top: 1rem;
     font-size: 1.2rem;
     color: #ff6300;
 }
 
-.page1-article-list {
+.info-page2-article {
+    /*display: flex;
+    flex-direction: column;
+    gap: 1rem;*/
+    color: white;
+}
+
+.info {
+    color: white;
+}
+
+.page2-ol1,
+.page2-ol2 {
     width: 80%;
     display: flex;
     flex-direction: column;
-    gap: .8rem;
+    gap: 0.8rem;
     padding-left: 2rem;
     font-size: .9rem;
-    padding-top: 1rem;
+}
+
+.page2-ol1 {
     padding-bottom: 1rem;
 }
 
 .page1-images {
-    background-image: url(./10-newbie-tips-for-b.jpg);
-    background-size: cover;
+    margin-top: 1rem;
+    background-image: url(./imgpage2/trenirovka-v-sportivnom-zale-dlja-novichka_15999865541045270353.jpg);
+    width: 100%;
     height: 300px;
+    background-size: cover;
 }
 
 
-.page1-subtext {
-    padding-top: 1.5rem;
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-    padding-bottom: 1rem;
-}
 
 
-.footer-page {
+
+
+
+.footer {
     background-color: black;
 
 }
 
-.footer-page-content {
+.footer-content {
     padding: 1rem;
 }
 
-.footer-page-top {
+.footer-top {
     padding-top: 1rem;
     display: flex;
     gap: .5rem;
     align-items: center
 }
 
-.footer-logo-page {
+.footer-logo {
     width: 2.7rem;
 }
 
-.footer-title-page {
+.footer-title {
     font-family: 'Oswald', sans-serif;
     letter-spacing: .4px;
     font-size: 1.2rem;
     color: white;
 }
 
-.footer-page-label {
+.footer-label {
     font-size: 1.2rem;
     font-family: 'Oswald', sans-serif;
     color: #ff6300;
 
 }
 
-.footer-page-text {
+.footer-text {
     padding-top: 1rem;
     padding-bottom: 1rem;
     display: flex;
     flex-direction: column;
     color: white;
     gap: .5rem;
-
-
 }
 
-.footer-page-link {
+.footer-link {
     font-size: .9rem;
     color: white;
     text-decoration: none;
@@ -201,4 +185,8 @@ body {
     color: #6b6b6b6e;
     text-align: center;
     font-size: .8rem;
+}
+
+.article-footer {
+    padding-bottom: 1rem;
 }

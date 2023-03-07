@@ -295,14 +295,13 @@ video {
     flex-direction: column;
     color: white;
     gap: .5rem;
-
-
 }
 
 .footer-link {
     color: white;
     text-decoration: none;
     color: #b6b6b6;
+    font-size: .9rem;
 
 }
 
